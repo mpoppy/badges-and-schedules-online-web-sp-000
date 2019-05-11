@@ -11,7 +11,7 @@ def batch_badge_creator(names)
   badge
 end
 
-#names = ["Jim", "Marc", "Julie"]
+names = ["Jim", "Marc", "Julie"]
 
 def assign_rooms(speakers)
  #assign a room with a welcome msg 1-7
