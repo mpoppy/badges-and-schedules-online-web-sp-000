@@ -12,5 +12,8 @@ def batch_badge_creator(speakers)
 end
 
 def assign_rooms(speakers)
-
+ #assign a room with a welcome msg 1-7
+ room = 1
+ speakers.each |speaker|
+ room += 1
 end
