@@ -28,4 +28,5 @@ def printer(names)
  # print the array that is outputed by batch_badge_creator
  batch_badge_creator(names).each do |badge|
    puts badge
+ end
 end
