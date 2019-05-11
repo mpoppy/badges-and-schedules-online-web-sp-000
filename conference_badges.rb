@@ -4,7 +4,7 @@ def badge_maker(name)
    "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(speakers)
+def batch_badge_creator(names)
   #returns an array of badge names
   badge = []
   speakers.each { |name| badge << badge_maker(name)}
@@ -24,8 +24,8 @@ def assign_rooms(speakers)
   return assignments
 end
 
-def printer(attendees)
+def printer(names)
  # print the array that is outputed by batch_badge_creator
- batch_badge_creator(attendees).each do |badge|
+ batch_badge_creator(names).each do |badge|
    puts badge
 end
