@@ -11,7 +11,7 @@ def batch_badge_creator(speakers)
   badge
 end
 
-names = ["Jim", "Marc", "Julie"]
+#names = ["Jim", "Marc", "Julie"]
 
 def assign_rooms(speakers)
  #assign a room with a welcome msg 1-7
@@ -25,7 +25,7 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees).each do |attendees|
-  puts attendees
+  attendees.each do |person|
+    batch_badge_creator(person)
   end
 end
