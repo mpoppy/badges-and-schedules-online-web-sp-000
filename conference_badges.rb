@@ -26,6 +26,6 @@ end
 
 def printer(attendees)
  # print the array that is outputed by batch_badge_creator
- batch_badge_creator(attendees) each do [badge]
+ batch_badge_creator(attendees) each do |badge|
    puts badge
 end
