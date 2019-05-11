@@ -15,7 +15,7 @@ def assign_rooms(speakers)
  #assign a room with a welcome msg 1-7
  room = 1
  while room < 8
-  speakers.each_with_index do |speaker|
+  speakers.each_with_index do |speaker, index|
   room += 1
    end
  end
