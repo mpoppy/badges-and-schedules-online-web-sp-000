@@ -19,7 +19,7 @@ def assign_rooms(speakers)
  #while room < 8
   assignments = []
   speakers.each_with_index do |speaker, index|
-    assignments << "Hello, #{speaker}! You'll be assigned to room #{index + 1}"
+    assignments << "Hello, #{speaker}! You'll be assigned to room #{index + 1}!"
   end
   return assignments
 end
