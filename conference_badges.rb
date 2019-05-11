@@ -11,12 +11,14 @@ def batch_badge_creator(speakers)
   badge
 end
 
+names = ["Jim", "Marc", "Julie"]
+
 def assign_rooms(speakers)
  #assign a room with a welcome msg 1-7
  #room = 1
  #while room < 8
   speakers.each_with_index do |speaker, index|
-    "Hello, #{speaker}! You'll be assigned to room #{index}"
+    puts "Hello, #{speaker}! You'll be assigned to room #{index}"
   end
 # end
 end
