@@ -5,5 +5,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name_array)
+  #returns an array of badge names
 
 end
