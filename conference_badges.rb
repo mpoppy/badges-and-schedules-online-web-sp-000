@@ -6,5 +6,6 @@ end
 
 def batch_badge_creator(name_array)
   #returns an array of badge names
+  badge = []
   name_array.each { |name| name.array << name}
 end
