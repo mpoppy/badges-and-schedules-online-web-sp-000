@@ -15,7 +15,7 @@ def assign_rooms(speakers)
  #assign a room with a welcome msg 1-7
  room = 1
  speakers.each_with_index |speaker|
-  "Hello, #{speaker}! You'll be assigned to"
+  "Hello, #{speaker}! You'll be assigned to #{speaker.index}"
   room += 1
  end
 end
